@@ -1,0 +1,34 @@
+INPUT PROBLEMA:
+	- Stringa da riconoscere 'parola'
+	- Contenuto della board
+	- Posizione della prima lettera
+	
+
+SOLUZIONE PARZIALE:
+	- Una stringa, la parte della parola che ho già riconosciuto
+	- Elenco delle posizioni sulla board (per illuminarla sulla grafica)
+	
+
+SOLUZIONE TOTALE:
+	- La parola riconosciuta per intero
+	- Elenco delle posizioni delle lettere
+	
+LIVELLO:
+	- Il numero di caratteri riconosciuti (size di parziale)
+	
+	
+CONDIZIONI DI TERMINAZIONE:
+	- Quando il livello è == alla size di parola da riconoscere
+	- Se viene trovata 'parola', stoppo la ricorsione
+	
+AVVIO RICORSIONE:
+	- Livello = 1
+	- Parto dalla posizione della prima lettera (se c'è)
+	
+		
+	
+	
+
+
+
+	
